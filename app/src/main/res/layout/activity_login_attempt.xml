@@ -26,7 +26,6 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp">
-
         <android.support.design.widget.TextInputLayout
 
             android:layout_weight="0.8"
@@ -39,6 +38,27 @@
 
             <EditText
 
+                android:id="@+id/mobileNum"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/flutter_blue"
+                android:hint="Mobile number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:maxLength="10"
+                android:inputType="number"
+                android:background="@color/white1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.8"
+            android:background="@color/white1"
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="0dp">
+            <EditText
                 android:id="@+id/validatePin"
                 android:layout_marginLeft="5dp"
                 android:textColor="@color/flutter_blue"

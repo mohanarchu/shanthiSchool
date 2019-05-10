@@ -20,7 +20,7 @@
             android:minEms="3"
             android:text="Low"
             android:textStyle="bold" />
-        <com.video.aashi.school.adapters.BarView
+        <com.video.aashi.shaanthischool.adapters.BarView
             android:layout_marginLeft="3dp"
             android:id="@+id/low_bar"
             android:layout_width="0dp"

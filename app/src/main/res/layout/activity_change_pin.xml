@@ -5,14 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".pinchange.ChangePin">
     <android.support.design.widget.CoordinatorLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp">
         <ImageView
-            android:padding="70dp"
-            android:src="@drawable/eazied_logo"
+            android:padding="40dp"
+            android:src="@drawable/logos"
+            android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
